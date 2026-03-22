@@ -1,32 +1,38 @@
-# Verificação de Triângulos
+# 🔺 Verificação de Triângulos
 
-Sistema desenvolvido em linguagem C para cadastro, listagem e alteração de triângulos, utilizando armazenamento em arquivo binário.
+Sistema desenvolvido em **Linguagem C** para o gerenciamento completo de formas geométricas, integrando lógica matemática com persistência de dados real.
 
-## Funcionalidades
-- Cadastro de triângulos
-- Listagem de todos os registros
-- Filtro por tipo (Equilátero, Isósceles, Escaleno)
-- Alteração de dados
-- Persistência em arquivo binário
+---
 
-## Conceitos aplicados
-- Estruturas (struct)
-- Manipulação de arquivos binários
-- Alocação e gerenciamento de memória
-- Lógica de validação de triângulos
-- CRUD básico
+## 🚀 Funcionalidades (CRUD)
+- ✅ **Cadastro:** Registro de triângulos com validação automática.
+- 📋 **Listagem:** Visualização de todos os registros em formato de tabela organizada.
+- 🔍 **Filtros Dinâmicos:** Consulta específica por tipo (Equilátero, Isosceles, Escaleno).
+- ⚙️ **Alteração:** Edição de dados de registros já existentes com atualização no arquivo.
+- 💾 **Persistência:** Armazenamento robusto em arquivo binário (`.bin`).
 
-## Objetivo
-Projeto acadêmico com foco em prática de estrutura de dados e manipulação de arquivos em C.
+---
 
+## 🧠 Conceitos de Engenharia Aplicados
+- **Estruturas de Dados:** Uso de `struct` para organização de objetos complexos.
+- **Manipulação de Arquivos:** Persistência binária (`fread`/`fwrite`) e controle de IDs em arquivo texto.
+- **Gerenciamento de Memória:** Alocação e manipulação eficiente de dados em arrays de structs.
+- **Lógica Matemática:** Implementação do Teorema da Desigualdade Triangular para validação de existência.
 
-## Biblioteca utilizada
+---
 
-Este projeto utiliza a biblioteca "pss.h", fornecida pelo professor Saulo Santos.
+## 🎯 Objetivo
+Este é um projeto acadêmico focado na prática de **Estrutura de Dados** e manipulação de arquivos, pilares fundamentais para a formação em Engenharia de Computação.
 
-A biblioteca auxilia na entrada de dados no terminal, como leitura de números e strings.
+---
 
-Disponível em:
-https://github.com/Prof-Saulo_Santos/pss-library
+## ⚙️ Biblioteca Utilizada (Dependência)
 
-> Observação: o arquivo "pss.h" não está incluído neste repositório e deve ser adicionado manualmente para execução do projeto.
+Este projeto utiliza a biblioteca **`pss.h`**, fornecida pelo **Prof. Saulo Santos**. Esta ferramenta auxilia na entrada de dados via terminal, garantindo uma leitura limpa de números e strings.
+
+🔗 **Disponível em:** [Prof-Saulo_Santos/pss-library](https://github.com/Prof-Saulo_Santos/pss-library)
+
+> **⚠️ Observação Importante:** Por questões de direitos e organização, o arquivo `pss.h` **não está incluído** neste repositório. Para executar o projeto, ele deve ser adicionado manualmente na mesma pasta do código-fonte.
+
+---
+*Desenvolvido por **Leandro Bitencort** - Estudante de Engenharia de Computação na UNIARA.*

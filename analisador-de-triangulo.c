@@ -64,7 +64,7 @@ int gerar_id(){
 char* verifica_triangulo(int a, int b, int c){
 	if(a+b>c && a+c>b && b+c>a)
 		if 		(a==b && b==c)  return "Equilatero";
-		else if (a==b || b==c)  return "Isoceles";
+		else if (a==b || b==c||a==c)  return "Isosceles";
 		else 					return "Escaleno";
 	else return "Nao existe";	
 }
